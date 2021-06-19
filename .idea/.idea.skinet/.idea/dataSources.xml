@@ -8,5 +8,12 @@
       <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/API/skinet.db</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="identity.db" uuid="387fb325-851e-4511-845c-dbcec3a6c81d">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/API/identity.db</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>
